@@ -2,7 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #111;
+  min-width: 500vh;
   font-family: sans-serif;
-  color: aliceblue;
+  
+}
+
+.title {
+  width: 200px;
+  height: 200px;
 }
