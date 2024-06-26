@@ -1,15 +1,35 @@
+
+
 html {
   scroll-behavior: smooth;
 }
 body {
-  margin: 0;
+ margin: 0;
   min-height: 500vh;
   font-family: sans-serif;
+  background-color: var(--bg-color);
  
 }
 
-.box {
-  width: 50px;
+.box-width{
+  position: fixed;
+  width:var(--box-width);
   height: 50px;
   background-color:var(--primary-color);
+  mix-blend-mode: exclusion;
 }
+
+.scroll-count{
+  //position: fixed;
+}
+
+.box-mouse {
+  position: fixed;
+  top: var(--top);
+  left: var(--left);
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  pointer-events: none;
+}
+
